@@ -7,7 +7,7 @@ import time
 import datetime
 
   
-driver = webdriver.Chrome(r'C:\\Users\\akshay.kumar\\Desktop\\chrome\\chromedriver.exe') 
+driver = webdriver.Chrome(r'your_path\\chromedriver.exe') 
   
 driver.get("https://web.whatsapp.com/") 
 wait = WebDriverWait(driver, 600) 

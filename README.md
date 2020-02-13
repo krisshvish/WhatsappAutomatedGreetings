@@ -7,15 +7,15 @@ Steps to get the script working:
 2. Install selenium for python using:<br/>
 `pip install selenium`
 3. Download Chrome driver from here: [chromedriver](http://chromedriver.chromium.org/)
-4. Change path to where the driver is located: 
+4. Change path to where the driver is located: <br/>
 `driver = webdriver.Chrome(r'your_path\\chromedriver.exe')`
-5. Replace Recipient with name of contact as per your whatsapp account
+5. Replace Recipient with name of contact as per your whatsapp account<br/>
 `driver.find_element_by_xpath("//span[@title='Recipient']").click()`
-6. Replace "Good Afternoon" with any greeting you like
+6. Replace "Good Afternoon" with any greeting you like<br/>
 `driver.find_element_by_xpath('//div[@class="_3u328 copyable-text selectable-text"][@dir="ltr"][@data-tab="1"]').send_keys("Good Afternoon Man"+Keys.ENTER)`
-7. Feel free to change the time to whenever you want the greeting to bbe sent:
+7. Feel free to change the time to whenever you want the greeting to bbe sent:<br/>
 `if current_time[0:8]=="13:15:00"`
-8. [Optional] Run script explicitly using:
+8. [Optional] Run script on terminal or cmd using:<br/>
 `python Whatsapp.py`
 
 To run the script automatically in the background, set the script as a Windows Service or a Cron job on Unix systems.

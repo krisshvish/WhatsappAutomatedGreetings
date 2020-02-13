@@ -17,3 +17,7 @@ Steps to get the script working:
 
 To run the script automatically in the background, set the script as a Windows Service or a Cron job on Unix systems.
 (Steps to do this will be added soon)
+
+---
+To fix: 
+1. Need to scan QR code on [Whatsapp Web](web.whatsapp.com) everytime a browser instance opens

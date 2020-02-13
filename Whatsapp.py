@@ -13,7 +13,7 @@ driver.get("https://web.whatsapp.com/")
 wait = WebDriverWait(driver, 600) 
   
 wait.until(EC.presence_of_element_located((By.XPATH, "//span[@title='Me 2' and @dir='auto']"))) 
-driver.find_element_by_xpath("//span[@title='Me 2']").click()
+driver.find_element_by_xpath("//span[@title='Recipient']").click()
 wait.until(EC.presence_of_element_located((By.XPATH, '//div[@class="_3u328 copyable-text selectable-text"][@dir="ltr"][@data-tab="1"]'))) 
 
 while True:

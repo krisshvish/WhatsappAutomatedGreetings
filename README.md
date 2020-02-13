@@ -15,6 +15,8 @@ Steps to get the script working:
 `driver.find_element_by_xpath('//div[@class="_3u328 copyable-text selectable-text"][@dir="ltr"][@data-tab="1"]').send_keys("Good Afternoon Man"+Keys.ENTER)`
 7. Feel free to change the time to whenever you want the greeting to bbe sent:
 `if current_time[0:8]=="13:15:00"`
+8. [Optional] Run script explicitly using:
+`python Whatsapp.py`
 
 To run the script automatically in the background, set the script as a Windows Service or a Cron job on Unix systems.
 (Steps to do this will be added soon)
